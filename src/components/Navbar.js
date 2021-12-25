@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="simplyrecepis logo" />
+            <img src={logo} alt="simplyrecipes logo" />
           </Link>
           <button className="nav-btn" onClick={() => setShow(!show)}>
             <FiMenu />
